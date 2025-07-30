@@ -22,6 +22,10 @@
 - Python 3.6+
 - Google Chrome installed
 - ChromeDriver compatible with your Chrome version
+```bash
+Set ChromeDriver path (optional)
+Download and place the ChromeDriver binary in a known location.
+```
 
 ---
 
@@ -33,4 +37,18 @@ git clone https://github.com/IlyassCODEX/FBCommentX.git
 cd FBCommentX
 pip install -r requirements.txt
 python3 cs.py
+```
+
+---
+
+Usage :
+
+```bash
+python3 cs.py \
+  --email your_email@example.com \
+  --password your_password \
+  --post-url https://www.facebook.com/yourtargetpost \
+  --comment "This is my automated comment!" \
+  --chromedriver-path /path/to/chromedriver \
+  --headless
 ```
