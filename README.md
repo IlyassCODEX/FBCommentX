@@ -29,6 +29,7 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/IlyassCODEX/FBCommentX/FBCommentX.git
+git clone https://github.com/IlyassCODEX/FBCommentX.git
 cd FBCommentX
+python3 cs.py
 ```
