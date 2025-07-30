@@ -45,7 +45,7 @@ Usage :
 
 ```bash
 python3 cs.py \
-  --email your_email@example.com \
+  --email your_email@example.com(or phone number) \
   --password your_password \
   --post-url https://www.facebook.com/yourtargetpost \
   --comment "This is my automated comment!" \
