@@ -31,5 +31,6 @@
 ```bash
 git clone https://github.com/IlyassCODEX/FBCommentX.git
 cd FBCommentX
+pip install -r requirements.txt
 python3 cs.py
 ```
